@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(220,64,56); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgb(220,64,56) 0%, rgb(235,139,44) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgb(220,64,56) 0%,rgb(235,139,44) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgb(220,64,56) 0%,rgb(235,139,44) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc4038', endColorstr='#eb8b2c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  display: flex;
+  height: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+body > img {
+  max-width: 90%;
+}
