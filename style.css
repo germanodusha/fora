@@ -16,8 +16,8 @@ body {
 }
 
 body > img {
-  max-width: 90%;
-  animation: blinker .5s linear infinite;
+  width: 12%;
+  animation: blinker 2s linear infinite;
 }
 
 @keyframes blinker {
